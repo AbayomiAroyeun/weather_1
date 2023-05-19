@@ -1,5 +1,29 @@
-.forecast-item {
-    background-color: lightgray;
-    padding: 10px;
-    margin-bottom: 5px;
-  }
+.frame {
+      width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .search-summary {
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .forecast-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .forecast-table th,
+    .forecast-table td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+#dash{
+  background-color: blue;
+  align-self: center;
+}

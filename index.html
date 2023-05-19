@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5 day Weather Forecast</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Weather Forecast</title>
 </head>
 <body>
-    <hi> 5 Day Weather Forecast</hi>
-    <script src="index.js"></script>
+  <div class="frame">
+    <h1 id="">Weather Dashboard</h1>
+
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Enter city name" />
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="weather"></div>
+
+    <h2>5-Day Forecast</h2>
+    <table id="forecast" class="forecast-table">
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Temperature</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
